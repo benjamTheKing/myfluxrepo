@@ -1,7 +1,7 @@
 apiVersion: kustomize.toolkit.fluxcd/v1
 kind: Kustomization
 metadata:
- name: podinfo
+ name: podinfo1
  namespace: flux-system
 spec:
  interval: 5m0s
