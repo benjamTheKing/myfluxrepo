@@ -8,7 +8,7 @@ spec:
  chart:
   spec:
    chart: ./charts/nginx
-   sourceref:
+   sourceRef:
     kind: GitRepository
     name: flux-system
     namespace: flux-system
