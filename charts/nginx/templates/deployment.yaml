@@ -56,7 +56,7 @@ spec:
       {{- with .Values.volumes }}
       volumes:
        - name: html
-         configmap:
+         configMap:
           name: {{ .Release.Name }}--index-html
       volumes:
         {{- toYaml . | nindent 8 }}
